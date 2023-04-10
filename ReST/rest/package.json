@@ -1,0 +1,20 @@
+{
+  "name": "rest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "./node_modules/.bin/mocha ./test/rest/libreria-test.js --reporter spec"
+  },
+  "dependencies": {
+    "chai-http": "^4.3.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<html>
+	<head>
+		<title>Práctica 1 - Grupo 8 Modificar tarea</title>
+		<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+	</head>
+		<body>
+			<a href="https://www.uclm.es/"><img src="images/logo.png" /></a>
+			<br>
+			<h1>Sitio Web de Tareas</h1>
+            <h2>Modificar Tarea N</h2>
+			<a href="index.html">Listado</a>
+			<br>
+			
+			<br>
+			
+            
+            <form method="GET" action="/tareasApp/ver-tarea.html">
+
+                <label for="fname" style="color:orange;">Título</label> 
+			    <br>
+                <textarea name="message" rows="1" cols="41">Tarea N</textarea>
+                <br><br><br>
+			    <label for="fname" style="color:orange;">Descripción</label> 
+			    <br>
+                <textarea name="message" rows="15" cols="41">Descripción</textarea>
+                <br><br>
+                <input type="submit" onclick="alert('La tarea se ha guardado correctamente.')" value="Guardar">
+                <input type="reset" value="Limpiar">
+
+            </form>
+
+			<p>Tareas WebApp - Grupo 8</p>
+		</body>
+</html>
